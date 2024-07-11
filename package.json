@@ -1,6 +1,6 @@
 {
   "name": "@pocsuperapp/mini-app-1",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Repositório teste do mini-app-1",
   "main": "index.js",
   "scripts": {
