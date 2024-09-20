@@ -1,13 +1,10 @@
 {
-  "name": "@pocsuperapp/mini-app-1",
+  "name": "mini-app-1",
   "version": "6.0.0",
   "description": "Repositório teste do mini-app-1",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
-  },
-  "publishConfig": {
-    "@pocsuperapp:registry": "https://npm.pkg.github.com"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "author": "",
   "license": "ISC"

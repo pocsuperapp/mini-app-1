@@ -1,0 +1,17 @@
+image: node:16
+
+stages:
+  - build
+
+before_script:
+  - npm install
+
+build-job:
+  stage: build
+  script:
+    - echo "Rodando o build da aplicação..."
+    - node index.js 5 10 # Aqui você pode testar a soma de dois números (ex: 5 + 10)
+  artifacts:
+    paths:
+      - index.js
+    expire_in: 1 week
